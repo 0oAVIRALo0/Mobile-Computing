@@ -77,3 +77,10 @@ Handlers for button clicks to simulate progress, show/hide text, and display dis
 
 - Distances are randomly generated for demonstration purposes.
 - The application assumes a linear route with 10 stops.
+
+![Screenshot 2024-02-19 at 8 27 53 PM](https://github.com/0oAVIRALo0/Mobile-Computing/assets/99357517/3768cb03-c1f7-47e1-ae1b-8e2ecb0531fe)
+![Screenshot 2024-02-19 at 8 28 28 PM](https://github.com/0oAVIRALo0/Mobile-Computing/assets/99357517/68325c22-df1b-4511-93a9-6797f17bb568)
+![Screenshot 2024-02-19 at 8 28 49 PM](https://github.com/0oAVIRALo0/Mobile-Computing/assets/99357517/e49d7897-7800-4447-ae8e-ddf21f25b7f0)
+![Screenshot 2024-02-19 at 8 29 11 PM](https://github.com/0oAVIRALo0/Mobile-Computing/assets/99357517/e8bfaf38-ccef-49d9-b621-2a0f0d58507e)
+
+
