@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/appLogo"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:src="@drawable/maps"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+
+        <Button
+            android:id="@+id/switchUnitsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Switch Units"
+            android:layout_below="@id/appLogo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+
+        <LinearLayout
+            android:id="@+id/buttonLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/switchUnitsButton"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/showNormalTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Normal Text"
+                android:layout_centerHorizontal="true"/>
+
+            <Button
+                android:id="@+id/reachedNextStopButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reached Next Stop"
+                android:layout_centerHorizontal="true"/>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="350dp"
+            android:layout_height="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/buttonLayout1"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/progressTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_below="@id/progressBar"
+            android:gravity="center"
+            android:layout_marginTop="16dp" />
+
+        <LinearLayout
+            android:id="@+id/buttonLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/progressTextView"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/showLazyTextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="show Lazy Text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/reachedNextStopButtonLazy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next Stop Lazy"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/lazyTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+
+            android:layout_below="@id/buttonLayout2"
+            android:layout_marginTop="16dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:id="@+id/buttonLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/lazyTextView"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <Button
+                android:id="@+id/showNormalListButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Normal List"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp" />
+
+            <Button
+                android:id="@+id/showLazyListButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Show Lazy List"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/buttonLayout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp">
+
+            <TextView
+                android:id="@+id/showLists"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:gravity="center"/>
+        </ScrollView>
+
+
+    </RelativeLayout>
+</ScrollView>
